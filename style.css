@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+img{
+  width: 110px !important;
+  height: auto;
+}
+#dice1{
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+#dice2{
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.boxA{
+  position: relative;
+  float: left;
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+  margin: 30px;
+  left: 90px;
+  box-shadow: 5px 10px 30px white;
+  text-align: center;
+}
+
+.boxB{
+  position: relative;
+  float: right;
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+  margin: 30px;
+  right: 90px;
+  box-shadow: 5px 10px 30px white;
+  text-align: center;
+}
+
+
+body {
+  font-family: 'Titan One', cursive;
+  background-color: #355070;
+  margin: 0;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 4.5rem;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.bottom {
+  padding-top: 30px;
+}
+
+#bt{
+  background: rgb(197, 91, 91);
+  border-radius: 7px;
+  color: white;
+  font-size: 25px;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+}
+.butnE {
+  background: white;
+  border-radius: 7px;
+  color: black;
+  font-size: 25px;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+}
+
+.butnE:hover {
+  background: grey;
+  text-decoration: none;
+  color: white;
+}
+
+#bt:hover {
+  background: rgb(153, 10, 10);
+  text-decoration: none;
+  color: white;
+}
